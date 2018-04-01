@@ -1,0 +1,64 @@
+page-chat {
+
+  #block{
+    background-color: #ceeeed;
+  }
+
+  .username {
+    font-weight: bold;
+    font-size: 80%;
+  }
+
+  .message{
+    font-size: 120%;
+  }
+
+  .innerMessage.messageRight {
+    display:inline-block;
+    clear: both;
+    padding: 5px 10px;
+    margin: 5px;
+    background: color($colors, 'primary');
+    color: white;
+    border-radius: 4px;
+  }
+
+  .innerMessage.messageLeft {
+    display:inline-block;
+    clear: both;
+    padding: 5px 10px;
+    margin: 5px;
+    background: color($colors, 'secondary');
+    color: white;
+    border-radius: 4px;
+  }
+
+  .messageWrap:after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+
+  .messageRight {
+    float: right;
+  }
+
+  .messageLeft {
+    float: left;
+  }
+
+  .element button {
+    border-radius: 0;
+    margin: 0;
+  }
+
+  div#footer div.element:first-child {
+    flex-grow: 1;
+  }
+
+  div#footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
