@@ -1,2 +1,2 @@
 # Chat-App
-Basic Chat appc Using Ionic 3 and Angular 4
+Basic Chat appc Using Ionic 3, Angular 4 and Firebase.
